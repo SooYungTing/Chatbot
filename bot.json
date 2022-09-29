@@ -1,0 +1,56 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye", "talk to you later"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["where", "are", "you", "from"],
+    "bot_response": "I think I first arrived as a burst of inspiration during a good long walk.",
+    "required_words": ["where", "from"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what's", "your", "name", "name?"],
+    "bot_response": "I am an AI chatbot.",
+    "required_words": ["name"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "old", "are", "you"],
+    "bot_response": "Well, I came into existence gradually. But my first day as a chatbot was on the 29th of September 2022",
+    "required_words": ["how", "old"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what's", "your", "gender?"],
+    "bot_response": "I don't have a gender.",
+    "required_words": ["gender"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "do", "you", "like"],
+    "bot_response": "I like to help. It's one of my favourite things.",
+    "required_words": ["like", "you"]
+  }
+]
